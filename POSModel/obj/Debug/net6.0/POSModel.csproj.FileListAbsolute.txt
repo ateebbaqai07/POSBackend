@@ -1,0 +1,12 @@
+D:\My Folder\My Projects\POS\POSModel\bin\Debug\net6.0\POSModel.deps.json
+D:\My Folder\My Projects\POS\POSModel\bin\Debug\net6.0\POSModel.dll
+D:\My Folder\My Projects\POS\POSModel\bin\Debug\net6.0\POSModel.pdb
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\POSModel.csproj.AssemblyReference.cache
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\POSModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\POSModel.AssemblyInfoInputs.cache
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\POSModel.AssemblyInfo.cs
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\POSModel.csproj.CoreCompileInputs.cache
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\POSModel.dll
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\refint\POSModel.dll
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\POSModel.pdb
+D:\My Folder\My Projects\POS\POSModel\obj\Debug\net6.0\ref\POSModel.dll

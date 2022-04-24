@@ -1,0 +1,10 @@
+D:\My Folder\My Projects\POS\POSResource\bin\Debug\netcoreapp3.1\POSResource.deps.json
+D:\My Folder\My Projects\POS\POSResource\bin\Debug\netcoreapp3.1\POSResource.dll
+D:\My Folder\My Projects\POS\POSResource\bin\Debug\netcoreapp3.1\POSResource.pdb
+D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.csproj.AssemblyReference.cache
+D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.AssemblyInfoInputs.cache
+D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.AssemblyInfo.cs
+D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.csproj.CoreCompileInputs.cache
+D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.dll
+D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.pdb

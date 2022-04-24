@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSApi", "POSApi.csproj", "{C4DC5743-1E5B-46B7-9B36-FE5F3F9BD9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSLibrary", "..\POSLibrary\POSLibrary.csproj", "{70A734F4-778C-4CD6-986E-90AB842E21D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSInterface", "..\POSInterface\POSInterface.csproj", "{070F8E76-B469-4D97-A70C-2B10050538EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSRepository", "..\POSRepository\POSRepository.csproj", "{DEB0BD9D-3164-4838-8BAE-9BF7D8854004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSModel", "..\POSModel\POSModel.csproj", "{109E2239-DEC2-41BE-BAC6-D8B629A8FAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSServiceProvider", "..\POSServiceProvider\POSServiceProvider.csproj", "{FF7E1344-26E4-4547-AFBA-BAA882E28B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSResource", "..\POSResource\POSResource.csproj", "{21C39E22-BE63-4DCB-B02E-04A8D8965208}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4DC5743-1E5B-46B7-9B36-FE5F3F9BD9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DC5743-1E5B-46B7-9B36-FE5F3F9BD9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DC5743-1E5B-46B7-9B36-FE5F3F9BD9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DC5743-1E5B-46B7-9B36-FE5F3F9BD9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A734F4-778C-4CD6-986E-90AB842E21D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A734F4-778C-4CD6-986E-90AB842E21D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A734F4-778C-4CD6-986E-90AB842E21D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A734F4-778C-4CD6-986E-90AB842E21D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070F8E76-B469-4D97-A70C-2B10050538EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070F8E76-B469-4D97-A70C-2B10050538EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070F8E76-B469-4D97-A70C-2B10050538EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070F8E76-B469-4D97-A70C-2B10050538EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB0BD9D-3164-4838-8BAE-9BF7D8854004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB0BD9D-3164-4838-8BAE-9BF7D8854004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB0BD9D-3164-4838-8BAE-9BF7D8854004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB0BD9D-3164-4838-8BAE-9BF7D8854004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109E2239-DEC2-41BE-BAC6-D8B629A8FAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109E2239-DEC2-41BE-BAC6-D8B629A8FAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109E2239-DEC2-41BE-BAC6-D8B629A8FAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109E2239-DEC2-41BE-BAC6-D8B629A8FAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7E1344-26E4-4547-AFBA-BAA882E28B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7E1344-26E4-4547-AFBA-BAA882E28B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7E1344-26E4-4547-AFBA-BAA882E28B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7E1344-26E4-4547-AFBA-BAA882E28B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C39E22-BE63-4DCB-B02E-04A8D8965208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C39E22-BE63-4DCB-B02E-04A8D8965208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C39E22-BE63-4DCB-B02E-04A8D8965208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C39E22-BE63-4DCB-B02E-04A8D8965208}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DC40E56-33AE-4A96-AB06-932F5EF31385}
+	EndGlobalSection
+EndGlobal

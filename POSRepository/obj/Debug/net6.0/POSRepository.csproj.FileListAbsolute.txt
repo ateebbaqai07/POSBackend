@@ -1,0 +1,16 @@
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\net6.0\POSRepository.deps.json
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\net6.0\POSRepository.dll
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\net6.0\POSRepository.pdb
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\net6.0\POSModel.dll
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\net6.0\Tracer.dll
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\net6.0\POSModel.pdb
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\POSRepository.csproj.AssemblyReference.cache
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\POSRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\POSRepository.AssemblyInfoInputs.cache
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\POSRepository.AssemblyInfo.cs
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\POSRepository.csproj.CoreCompileInputs.cache
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\POSRepository.csproj.CopyComplete
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\POSRepository.dll
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\refint\POSRepository.dll
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\POSRepository.pdb
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\net6.0\ref\POSRepository.dll

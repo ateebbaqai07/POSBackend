@@ -1,0 +1,27 @@
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.AssemblyReference.cache
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.AssemblyInfoInputs.cache
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.AssemblyInfo.cs
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.CoreCompileInputs.cache
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.deps.json
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.dll
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.pdb
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\netcoreapp3.1\POSModel.dll
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\netcoreapp3.1\Tracer.dll
+D:\My Folder\My Projects\POS\POSRepository\bin\Debug\netcoreapp3.1\POSModel.pdb
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.CopyComplete
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.dll
+D:\My Folder\My Projects\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.pdb
+G:\talha project\POS\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.deps.json
+G:\talha project\POS\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.dll
+G:\talha project\POS\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.pdb
+G:\talha project\POS\POSRepository\bin\Debug\netcoreapp3.1\POSModel.dll
+G:\talha project\POS\POSRepository\bin\Debug\netcoreapp3.1\Tracer.dll
+G:\talha project\POS\POSRepository\bin\Debug\netcoreapp3.1\POSModel.pdb
+G:\talha project\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csprojAssemblyReference.cache
+G:\talha project\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.AssemblyInfoInputs.cache
+G:\talha project\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.AssemblyInfo.cs
+G:\talha project\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.CoreCompileInputs.cache
+G:\talha project\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.CopyComplete
+G:\talha project\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.dll
+G:\talha project\POS\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.pdb
