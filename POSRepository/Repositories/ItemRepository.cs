@@ -398,9 +398,10 @@ namespace POSRepository.Repositories
             {
                 ResponseDTO<List<ItemModel>> responseDTO = new ResponseDTO<List<ItemModel>>();
                 List<Parameter> _param = new List<Parameter>();
+                _param.Add(new Parameter { ParameterName = "@active", Value = 1, DbType = ParameterDbType.Int32 });
 
 
-                DataSet ds = new ClsExecute().GetDataSet("SP_GET_ITEM", CommandType.StoredProcedure, _param);
+                DataSet ds = new ClsExecute().GetDataSet("sp_product_list", CommandType.StoredProcedure, _param);
 
                 List<ItemModel> l_field = new List<ItemModel>();
                 if (ds.Tables[0].Rows.Count > 0)
@@ -409,9 +410,62 @@ namespace POSRepository.Repositories
                     foreach (DataRow row in ds.Tables[0].Rows)
                     {
                         ItemModel l_obj = new ItemModel();
-                        l_obj.group_code = SafeConvert.ToInt32(row["group_code"]); 
+                        l_obj.product_code = SafeConvert.ToDecimal(row["product_code"]);
+                        l_obj.barcode = SafeConvert.ToString(row["barcode"]);
+                        l_obj.product_desc = SafeConvert.ToString(row["product_desc"]);
+                        l_obj.cost = SafeConvert.ToDecimal(row["cost"]);
+                        l_obj.retail = SafeConvert.ToDecimal(row["retail"]);
+                        l_obj.avg_cost = SafeConvert.ToDecimal(row["avg_cost"]);
+                        l_obj.qty_inhand = SafeConvert.ToDecimal(row["qty_inhand"]);
+                        l_obj.case_qty = SafeConvert.ToInt32(row["case_qty"]);
+                        l_obj.category_name = SafeConvert.ToString(row["category_name"]);
+                        l_obj.po_type = SafeConvert.ToString(row["po_type"]);
+                        l_obj.sale_tax = SafeConvert.ToDecimal(row["sale_tax"]);
+                        l_obj.min_level = SafeConvert.ToInt32(row["min_level"]);
+                        l_obj.max_level = SafeConvert.ToInt32(row["max_level"]);
+                        //l_obj.bin_location_code = SafeConvert.ToInt32(row["bin_location_code"]);
+                        l_obj.bin_location = SafeConvert.ToString(row["bin_name"]);
+                        l_obj.item_disc = SafeConvert.ToInt32(row["item_disc"]);
                         l_obj.branch_id = SafeConvert.ToString(row["branch_id"]);
-                        l_field.Add(l_obj);
+                        l_obj.joining_date = SafeConvert.ToDateTime(row["joining_date"]);
+                        l_obj.brand_code = SafeConvert.ToInt32(row["brand_code"]);
+                        //l_obj.sub_cate_code = SafeConvert.ToInt32(row["sub_cate_code"]);
+                        l_obj.sub_category = SafeConvert.ToString(row["sub_cate_name"]);
+                        //l_obj.uom_code = SafeConvert.ToInt32(row["uom_code"]);
+                        l_obj.uom = SafeConvert.ToString(row["uom_name"]);
+                        l_obj.design_model = SafeConvert.ToString(row["design_model"]);
+                        l_obj.active = SafeConvert.ToInt32(row["active"]);
+                        l_obj.make = SafeConvert.ToString(row["make"]); 
+                        l_obj.group_name = SafeConvert.ToString(row["group_name"]);
+                        l_obj.last_sale_rate = SafeConvert.ToInt32(row["last_sale_rate"]);
+                        l_obj.last_sale_qty = SafeConvert.ToInt32(row["last_sale_qty"]);
+                        l_obj.last_sale_date = SafeConvert.ToDateTime(row["last_sale_date"]);
+                        l_obj.last_pur_rate = SafeConvert.ToInt32(row["last_pur_rate"]);
+                        l_obj.last_pur_qty = SafeConvert.ToInt32(row["last_pur_qty"]);
+                        l_obj.last_pur_date = SafeConvert.ToDateTime(row["last_pur_date"]);
+                        //l_obj.qty_inhand000 = SafeConvert.ToInt32(row["qty_inhand000"]);
+                        //l_obj.qty_inhand001 = SafeConvert.ToInt32(row["qty_inhand001"]);
+                        //l_obj.qty_inhand002 = SafeConvert.ToInt32(row["qty_inhand002"]);
+                        //l_obj.qty_inhand003 = SafeConvert.ToInt32(row["qty_inhand003"]);
+                        //l_obj.qty_inhand004 = SafeConvert.ToInt32(row["qty_inhand004"]);
+                        //l_obj.qty_inahnd005 = SafeConvert.ToInt32(row["qty_inahnd005"]);
+                        //l_obj.qty_inhand006 = SafeConvert.ToInt32(row["qty_inhand006"]);
+                        //l_obj.qty_inahnd007 = SafeConvert.ToInt32(row["qty_inahnd007"]);
+                        //l_obj.qty_inhand008 = SafeConvert.ToInt32(row["qty_inhand008"]);
+                        //l_obj.qty_inhand009 = SafeConvert.ToInt32(row["qty_inhand009"]);
+                        l_obj.price_level1 = SafeConvert.ToInt32(row["price_level1"]);
+                        l_obj.price_level2 = SafeConvert.ToInt32(row["price_level2"]);
+                        l_obj.price_level3 = SafeConvert.ToInt32(row["price_level3"]);
+                        l_obj.price_level4 = SafeConvert.ToInt32(row["price_level4"]);
+                        l_obj.price_level5 = SafeConvert.ToInt32(row["price_level5"]);
+                        l_obj.tax_code = SafeConvert.ToString(row["tax_code"]);
+                        l_obj.retail_min = SafeConvert.ToInt32(row["retail_min"]);
+                        l_obj.retail_max = SafeConvert.ToInt32(row["retail_max"]);
+                        l_obj.urdu_desc = SafeConvert.ToString(row["urdu_desc"]);
+                        //l_obj.type_print = SafeConvert.ToInt32(row["type_print"]);
+                        l_obj.item_brand = SafeConvert.ToString(row["item_brand"]);
+                    
+                    l_field.Add(l_obj);
 
                     }
 

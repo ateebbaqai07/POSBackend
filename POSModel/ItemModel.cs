@@ -23,6 +23,10 @@ namespace POSModel
 
         public int? category_code { get; set; }
 
+        public string? category_name { get; set; }
+
+        public string? group_name { get; set; }
+
         public string po_type { get; set; }
 
         public decimal? sale_tax { get; set; } = 0;

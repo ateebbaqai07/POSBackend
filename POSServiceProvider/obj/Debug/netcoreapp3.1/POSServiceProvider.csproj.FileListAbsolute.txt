@@ -18,3 +18,23 @@ D:\My Folder\My Projects\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSRepos
 D:\My Folder\My Projects\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.csproj.CopyComplete
 D:\My Folder\My Projects\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.dll
 D:\My Folder\My Projects\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.pdb
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSServiceProvider.deps.json
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSServiceProvider.dll
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSServiceProvider.pdb
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSInterface.dll
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSLibrary.dll
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSModel.dll
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSRepository.dll
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\Tracer.dll
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSLibrary.pdb
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSInterface.pdb
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSModel.pdb
+D:\My Folder\GIT\POSBackend\POSServiceProvider\bin\Debug\netcoreapp3.1\POSRepository.pdb
+D:\My Folder\GIT\POSBackend\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.csproj.AssemblyReference.cache
+D:\My Folder\GIT\POSBackend\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Folder\GIT\POSBackend\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.AssemblyInfoInputs.cache
+D:\My Folder\GIT\POSBackend\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.AssemblyInfo.cs
+D:\My Folder\GIT\POSBackend\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.csproj.CoreCompileInputs.cache
+D:\My Folder\GIT\POSBackend\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.csproj.CopyComplete
+D:\My Folder\GIT\POSBackend\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.dll
+D:\My Folder\GIT\POSBackend\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.pdb

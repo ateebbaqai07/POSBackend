@@ -895,11 +895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Folder\\My Projects\\POS\\POSRepository\\POSRepository.csproj",
+      "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj",
       "projectName": "POSRepository",
-      "projectPath": "D:\\My Folder\\My Projects\\POS\\POSRepository\\POSRepository.csproj",
+      "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj",
       "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-      "outputPath": "D:\\My Folder\\My Projects\\POS\\POSRepository\\obj\\",
+      "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -916,8 +916,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj": {
-              "projectPath": "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj"
+            "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
+              "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
             }
           }
         }

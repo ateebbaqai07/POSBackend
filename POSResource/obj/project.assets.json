@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Folder\\My Projects\\POS\\POSResource\\POSResource.csproj",
+      "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj",
       "projectName": "POSResource",
-      "projectPath": "D:\\My Folder\\My Projects\\POS\\POSResource\\POSResource.csproj",
+      "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj",
       "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-      "outputPath": "D:\\My Folder\\My Projects\\POS\\POSResource\\obj\\",
+      "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSResource\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",

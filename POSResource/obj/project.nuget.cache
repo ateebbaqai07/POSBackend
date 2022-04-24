@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SJONVqlGYLIpm9egPn9YIiU6uLGFnMuLuXFRm6SKpLC15ipmn165RVcEVeBJCmdLfuHYYlFywcROOBCT/W6m9g==",
+  "dgSpecHash": "kMa3dzxhswlN+LavaXxzlQBeBjipfQl6q5OPLICmxkYMOLo0UHKNtDVlaXK3ako7+uwtoGc7xuldDaGRkYGkGA==",
   "success": true,
-  "projectFilePath": "D:\\My Folder\\My Projects\\POS\\POSResource\\POSResource.csproj",
+  "projectFilePath": "D:\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

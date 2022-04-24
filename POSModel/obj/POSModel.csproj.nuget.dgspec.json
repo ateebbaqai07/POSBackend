@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj": {}
+    "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {}
   },
   "projects": {
-    "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj": {
+    "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj",
+        "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj",
         "projectName": "POSModel",
-        "projectPath": "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj",
+        "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj",
         "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-        "outputPath": "D:\\My Folder\\My Projects\\POS\\POSModel\\obj\\",
+        "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
