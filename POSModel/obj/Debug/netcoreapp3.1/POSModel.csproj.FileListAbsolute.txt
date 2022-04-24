@@ -8,12 +8,3 @@ D:\My Folder\My Projects\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.AssemblyI
 D:\My Folder\My Projects\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.csproj.CoreCompileInputs.cache
 D:\My Folder\My Projects\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.dll
 D:\My Folder\My Projects\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.pdb
-G:\talha project\POS\POSModel\bin\Debug\netcoreapp3.1\POSModel.deps.json
-G:\talha project\POS\POSModel\bin\Debug\netcoreapp3.1\POSModel.dll
-G:\talha project\POS\POSModel\bin\Debug\netcoreapp3.1\POSModel.pdb
-G:\talha project\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.AssemblyInfoInputs.cache
-G:\talha project\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.AssemblyInfo.cs
-G:\talha project\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.csproj.CoreCompileInputs.cache
-G:\talha project\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.dll
-G:\talha project\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.pdb
-G:\talha project\POS\POSModel\obj\Debug\netcoreapp3.1\POSModel.csprojAssemblyReference.cache

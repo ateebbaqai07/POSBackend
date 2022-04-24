@@ -12,5 +12,11 @@ namespace POSServiceProvider
         {
             return new CommonService();
         }
+
+
+        public IItemService GetItemService()
+        {
+            return new ItemServices();
+        }
     }
 }

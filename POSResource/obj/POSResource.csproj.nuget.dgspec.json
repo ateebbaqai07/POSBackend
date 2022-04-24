@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\talha project\\POS\\POSResource\\POSResource.csproj": {}
+    "D:\\My Folder\\My Projects\\POS\\POSResource\\POSResource.csproj": {}
   },
   "projects": {
-    "G:\\talha project\\POS\\POSResource\\POSResource.csproj": {
+    "D:\\My Folder\\My Projects\\POS\\POSResource\\POSResource.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\talha project\\POS\\POSResource\\POSResource.csproj",
+        "projectUniqueName": "D:\\My Folder\\My Projects\\POS\\POSResource\\POSResource.csproj",
         "projectName": "POSResource",
-        "projectPath": "G:\\talha project\\POS\\POSResource\\POSResource.csproj",
-        "packagesPath": "C:\\Users\\LAptop\\.nuget\\packages\\",
-        "outputPath": "G:\\talha project\\POS\\POSResource\\obj\\",
+        "projectPath": "D:\\My Folder\\My Projects\\POS\\POSResource\\POSResource.csproj",
+        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
+        "outputPath": "D:\\My Folder\\My Projects\\POS\\POSResource\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LAptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

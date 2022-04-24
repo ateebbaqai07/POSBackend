@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSApi", "POSApi.csproj", "{C4DC5743-1E5B-46B7-9B36-FE5F3F9BD9D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POSApi", "POSApi.csproj", "{C4DC5743-1E5B-46B7-9B36-FE5F3F9BD9D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSLibrary", "..\POSLibrary\POSLibrary.csproj", "{70A734F4-778C-4CD6-986E-90AB842E21D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POSLibrary", "..\POSLibrary\POSLibrary.csproj", "{70A734F4-778C-4CD6-986E-90AB842E21D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSInterface", "..\POSInterface\POSInterface.csproj", "{070F8E76-B469-4D97-A70C-2B10050538EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POSInterface", "..\POSInterface\POSInterface.csproj", "{070F8E76-B469-4D97-A70C-2B10050538EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSRepository", "..\POSRepository\POSRepository.csproj", "{DEB0BD9D-3164-4838-8BAE-9BF7D8854004}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POSRepository", "..\POSRepository\POSRepository.csproj", "{DEB0BD9D-3164-4838-8BAE-9BF7D8854004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSModel", "..\POSModel\POSModel.csproj", "{109E2239-DEC2-41BE-BAC6-D8B629A8FAEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POSModel", "..\POSModel\POSModel.csproj", "{109E2239-DEC2-41BE-BAC6-D8B629A8FAEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSServiceProvider", "..\POSServiceProvider\POSServiceProvider.csproj", "{FF7E1344-26E4-4547-AFBA-BAA882E28B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POSServiceProvider", "..\POSServiceProvider\POSServiceProvider.csproj", "{FF7E1344-26E4-4547-AFBA-BAA882E28B19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSResource", "..\POSResource\POSResource.csproj", "{21C39E22-BE63-4DCB-B02E-04A8D8965208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POSResource", "..\POSResource\POSResource.csproj", "{21C39E22-BE63-4DCB-B02E-04A8D8965208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

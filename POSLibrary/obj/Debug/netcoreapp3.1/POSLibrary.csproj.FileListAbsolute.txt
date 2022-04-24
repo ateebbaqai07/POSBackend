@@ -16,20 +16,3 @@ D:\My Folder\My Projects\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSRepository.pd
 D:\My Folder\My Projects\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.csproj.CopyComplete
 D:\My Folder\My Projects\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.dll
 D:\My Folder\My Projects\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.pdb
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSLibrary.deps.json
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSLibrary.dll
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSLibrary.pdb
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSInterface.dll
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSModel.dll
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSRepository.dll
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\Tracer.dll
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSInterface.pdb
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSModel.pdb
-G:\talha project\POS\POSLibrary\bin\Debug\netcoreapp3.1\POSRepository.pdb
-G:\talha project\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.csprojAssemblyReference.cache
-G:\talha project\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.AssemblyInfoInputs.cache
-G:\talha project\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.AssemblyInfo.cs
-G:\talha project\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.csproj.CoreCompileInputs.cache
-G:\talha project\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.csproj.CopyComplete
-G:\talha project\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.dll
-G:\talha project\POS\POSLibrary\obj\Debug\netcoreapp3.1\POSLibrary.pdb

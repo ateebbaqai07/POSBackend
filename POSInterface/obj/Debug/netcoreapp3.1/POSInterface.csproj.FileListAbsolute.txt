@@ -14,18 +14,3 @@ D:\My Folder\My Projects\POS\POSInterface\bin\Debug\netcoreapp3.1\POSRepository.
 D:\My Folder\My Projects\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.CopyComplete
 D:\My Folder\My Projects\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.dll
 D:\My Folder\My Projects\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.pdb
-G:\talha project\POS\POSInterface\bin\Debug\netcoreapp3.1\POSInterface.deps.json
-G:\talha project\POS\POSInterface\bin\Debug\netcoreapp3.1\POSInterface.dll
-G:\talha project\POS\POSInterface\bin\Debug\netcoreapp3.1\POSInterface.pdb
-G:\talha project\POS\POSInterface\bin\Debug\netcoreapp3.1\POSModel.dll
-G:\talha project\POS\POSInterface\bin\Debug\netcoreapp3.1\POSRepository.dll
-G:\talha project\POS\POSInterface\bin\Debug\netcoreapp3.1\Tracer.dll
-G:\talha project\POS\POSInterface\bin\Debug\netcoreapp3.1\POSModel.pdb
-G:\talha project\POS\POSInterface\bin\Debug\netcoreapp3.1\POSRepository.pdb
-G:\talha project\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csprojAssemblyReference.cache
-G:\talha project\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.AssemblyInfoInputs.cache
-G:\talha project\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.AssemblyInfo.cs
-G:\talha project\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.CoreCompileInputs.cache
-G:\talha project\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.CopyComplete
-G:\talha project\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.dll
-G:\talha project\POS\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.pdb

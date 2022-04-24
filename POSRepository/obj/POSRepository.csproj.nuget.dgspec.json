@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\talha project\\POS\\POSRepository\\POSRepository.csproj": {}
+    "D:\\My Folder\\My Projects\\POS\\POSRepository\\POSRepository.csproj": {}
   },
   "projects": {
-    "G:\\talha project\\POS\\POSModel\\POSModel.csproj": {
+    "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\talha project\\POS\\POSModel\\POSModel.csproj",
+        "projectUniqueName": "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj",
         "projectName": "POSModel",
-        "projectPath": "G:\\talha project\\POS\\POSModel\\POSModel.csproj",
-        "packagesPath": "C:\\Users\\LAptop\\.nuget\\packages\\",
-        "outputPath": "G:\\talha project\\POS\\POSModel\\obj\\",
+        "projectPath": "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj",
+        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
+        "outputPath": "D:\\My Folder\\My Projects\\POS\\POSModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LAptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -72,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\talha project\\POS\\POSRepository\\POSRepository.csproj": {
+    "D:\\My Folder\\My Projects\\POS\\POSRepository\\POSRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\talha project\\POS\\POSRepository\\POSRepository.csproj",
+        "projectUniqueName": "D:\\My Folder\\My Projects\\POS\\POSRepository\\POSRepository.csproj",
         "projectName": "POSRepository",
-        "projectPath": "G:\\talha project\\POS\\POSRepository\\POSRepository.csproj",
-        "packagesPath": "C:\\Users\\LAptop\\.nuget\\packages\\",
-        "outputPath": "G:\\talha project\\POS\\POSRepository\\obj\\",
+        "projectPath": "D:\\My Folder\\My Projects\\POS\\POSRepository\\POSRepository.csproj",
+        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
+        "outputPath": "D:\\My Folder\\My Projects\\POS\\POSRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LAptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +104,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "G:\\talha project\\POS\\POSModel\\POSModel.csproj": {
-                "projectPath": "G:\\talha project\\POS\\POSModel\\POSModel.csproj"
+              "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj": {
+                "projectPath": "D:\\My Folder\\My Projects\\POS\\POSModel\\POSModel.csproj"
               }
             }
           }
@@ -136,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

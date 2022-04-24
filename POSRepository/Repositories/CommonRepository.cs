@@ -15,16 +15,9 @@ namespace POSRepository.Repositories
         {
             using (FuncTrace trace = new FuncTrace("CommonRepository", "GetAgentDetailByAgentID"))
             {
-                ResponseDTO<LoginModel> responseDTO = new ResponseDTO<LoginModel>();
-
-                //StringBuilder cmd = new StringBuilder();
+                ResponseDTO<LoginModel> responseDTO = new ResponseDTO<LoginModel>(); 
                 List<Parameter> _param = new List<Parameter>();
-
-                ////Set Query
-                //cmd.Append(@"select login_name,password,login_info.emp_code from login_info,tblrights where login_info.emp_code = tblrights.salesman_code
-                //and login_info.login_name = @login_name and
-                //login_info.password = @password");
-
+                  
                 //Set Param
                 _param.Add(new Parameter { ParameterName = "@login_name", Value = loginID });
 

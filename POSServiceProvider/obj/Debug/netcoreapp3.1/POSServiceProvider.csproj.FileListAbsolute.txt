@@ -18,22 +18,3 @@ D:\My Folder\My Projects\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSRepos
 D:\My Folder\My Projects\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.csproj.CopyComplete
 D:\My Folder\My Projects\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.dll
 D:\My Folder\My Projects\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.pdb
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSServiceProvider.deps.json
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSServiceProvider.dll
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSServiceProvider.pdb
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSInterface.dll
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSLibrary.dll
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSModel.dll
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSRepository.dll
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\Tracer.dll
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSLibrary.pdb
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSInterface.pdb
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSModel.pdb
-G:\talha project\POS\POSServiceProvider\bin\Debug\netcoreapp3.1\POSRepository.pdb
-G:\talha project\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.csprojAssemblyReference.cache
-G:\talha project\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.AssemblyInfoInputs.cache
-G:\talha project\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.AssemblyInfo.cs
-G:\talha project\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.csproj.CoreCompileInputs.cache
-G:\talha project\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.csproj.CopyComplete
-G:\talha project\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.dll
-G:\talha project\POS\POSServiceProvider\obj\Debug\netcoreapp3.1\POSServiceProvider.pdb
