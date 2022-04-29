@@ -476,5 +476,83 @@ namespace POSRepository.Repositories
                 return responseDTO;
             }
         }
+
+
+        public ResponseDTO<string> updateQuantity(QuantityModel bin)
+        {
+            using (FuncTrace trace = new FuncTrace("ItemRepository", "updateQuantity"))
+            {
+                ResponseDTO<string> responseDTO = new ResponseDTO<string>();
+                     List<Parameter> _param = new List<Parameter>();
+                //Set Param
+                _param.Add(new Parameter { ParameterName = "@voucher_no", Value = bin.voucher_no, DbType = ParameterDbType.Decimal });
+                _param.Add(new Parameter { ParameterName = "@voucher_type", Value = bin.voucher_type, DbType = ParameterDbType.Decimal });
+                _param.Add(new Parameter { ParameterName = "@master_code", Value = bin.master_code, DbType = ParameterDbType.Decimal });
+                _param.Add(new Parameter { ParameterName = "@product_code", Value = bin.product_code, DbType = ParameterDbType.Decimal });
+                _param.Add(new Parameter { ParameterName = "@open_date", Value = bin.open_date, DbType = ParameterDbType.DateTime });
+                _param.Add(new Parameter { ParameterName = "@open_datetime", Value = bin.open_datetime, DbType = ParameterDbType.DateTime });
+                _param.Add(new Parameter { ParameterName = "@open_qty", Value = bin.open_qty, DbType = ParameterDbType.Decimal });
+                _param.Add(new Parameter { ParameterName = "@branch_id", Value = bin.branch_id, DbType = ParameterDbType.String });
+                _param.Add(new Parameter { ParameterName = "@particulars", Value = bin.particulars, DbType = ParameterDbType.String });
+                _param.Add(new Parameter { ParameterName = "@product_name", Value = bin.product_name, DbType = ParameterDbType.String });
+                _param.Add(new Parameter { ParameterName = "@open_cost", Value = bin.open_cost, DbType = ParameterDbType.Decimal });
+                DataSet ds = new ClsExecute().GetDataSet("sp_update_opening_quantity", CommandType.StoredProcedure, _param);
+
+
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+                    responseDTO.ResponseCode = SafeConvert.ToString(ds.Tables[0].Rows[0]["retValue"]);
+
+                }
+
+                return responseDTO;
+            }
+        }
+
+        public ResponseDTO<QuantityModel> GetQuantity(decimal voucher_no)
+        {
+            using (FuncTrace trace = new FuncTrace("ItemRepository", "GetQuantity"))
+            {
+                ResponseDTO<QuantityModel> responseDTO = new ResponseDTO<QuantityModel>();
+                List<Parameter> _param = new List<Parameter>();
+                _param.Add(new Parameter { ParameterName = "@voucher_no", Value = voucher_no, DbType = ParameterDbType.Decimal });
+
+
+                DataSet ds = new ClsExecute().GetDataSet("SP_GET_ITEM_QUANTITY", CommandType.StoredProcedure, _param);
+
+                QuantityModel l_obj = new QuantityModel();
+                if (ds.Tables[0].Rows.Count == 1)
+                {
+
+                    foreach (DataRow row in ds.Tables[0].Rows)
+                    {
+                       
+                        l_obj.voucher_no = SafeConvert.ToDecimal(row["voucher_no"]);
+                        l_obj.voucher_type = SafeConvert.ToDecimal(row["voucher_type"]);
+                        l_obj.master_code = SafeConvert.ToDecimal(row["master_code"]);
+                        l_obj.product_code = SafeConvert.ToDecimal(row["product_code"]);
+                        l_obj.open_date = SafeConvert.ToDateTime(row["open_date"]);
+                        l_obj.open_datetime = SafeConvert.ToDateTime(row["open_datetime"]);
+                        l_obj.open_qty = SafeConvert.ToDecimal(row["open_qty"]);
+                        l_obj.branch_id = SafeConvert.ToString(row["branch_id"]);
+                        l_obj.particulars = SafeConvert.ToString(row["particulars"]);
+                        l_obj.product_name = SafeConvert.ToString(row["product_name"]);
+                        l_obj.open_cost = SafeConvert.ToDecimal(row["open_cost"]);
+
+                       
+
+                    }
+                    responseDTO.DTO = l_obj;
+
+                }
+                else
+                    responseDTO.DTO = null;
+
+   
+                responseDTO.Result = true;
+
+                return responseDTO;
+            }
+        }
     }
 }

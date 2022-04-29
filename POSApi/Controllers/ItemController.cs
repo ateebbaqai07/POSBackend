@@ -106,6 +106,25 @@ namespace POSApi.Controllers
         }
 
 
+        [HttpPost]
+        [Route("[action]")]
+        public ResponseDTO<string> UpdateQuantity(QuantityModel bin)
+        {
+            ServiceProvider sp = new ServiceProvider();
+            return sp.GetItemService().updateQuantity(bin);
+
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public ResponseDTO<QuantityModel> GetItemQuantity(decimal voucharNo)
+        {
+            ServiceProvider sp = new ServiceProvider();
+            return sp.GetItemService().GetItemQuantity(voucharNo);
+
+        }
+
+
         [HttpPost] 
         public ResponseDTO<string> Post([FromForm] ItemModel bin)
         {

@@ -27,5 +27,9 @@ namespace POSRepository.Interface
 
         public ResponseDTO<string> updateItem(ItemModel bin);
         public ResponseDTO<List<ItemModel>> GetItems();
+
+        public ResponseDTO<string> updateQuantity(QuantityModel bin);
+
+        public ResponseDTO<QuantityModel> GetQuantity(decimal voucher_no);
     }
 }

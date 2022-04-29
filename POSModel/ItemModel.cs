@@ -160,4 +160,32 @@ namespace POSModel
         public string group_name { get; set; }
         public string branch_id { get; set; }
     }
+    
+    public class  QuantityModel
+    {
+
+        public decimal voucher_no { get; set; }
+
+        public decimal voucher_type { get; set; }
+
+        public decimal? master_code { get; set; }
+
+        public decimal product_code { get; set; }
+
+        public DateTime? open_date { get; set; }
+
+        public DateTime? open_datetime { get; set; }
+
+        public decimal? open_qty { get; set; }
+
+        public string branch_id { get; set; }
+
+        public string particulars { get; set; }
+
+        public string product_name { get; set; }
+
+        public decimal? open_cost { get; set; }
+
+    }
+
 }

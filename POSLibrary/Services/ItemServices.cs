@@ -375,6 +375,67 @@ namespace POSLibrary.Services
             }
         }
 
+
+        public ResponseDTO<string> updateQuantity(QuantityModel bin)
+        {
+            using (FuncTrace trace = new FuncTrace("ItemServices", "updateQuantity"))
+            {
+                ResponseDTO<string> respDTO = new ResponseDTO<string>();
+                try
+                {
+                    IItemRepository repo = new RepositoryProvider().GetItemRepository();
+                    
+                    respDTO = repo.updateQuantity(bin);
+
+                    if (respDTO.ResponseCode == "9000")
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "Insert or Update Failed" });
+                    }
+                    else
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "Success" });
+                        respDTO.Result = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    respDTO.ResponseCode = "-1";
+                    respDTO.ErrorMessages.Add(new ErrorMessage { Message = "ItemServices" + "/updateQuantity" + ex.Message });
+                }
+                return respDTO;
+            }
+        }
+
+        public ResponseDTO<QuantityModel> GetItemQuantity(decimal voucherNo)
+        {
+            using (FuncTrace trace = new FuncTrace("ItemServices", "GetItemQuantity"))
+            {
+                ResponseDTO<QuantityModel> respDTO = new ResponseDTO<QuantityModel>();
+                try
+                {
+                    IItemRepository repo = new RepositoryProvider().GetItemRepository();
+
+                    respDTO = repo.GetQuantity(voucherNo);
+
+                    if (respDTO.DTO == null)
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "No Record Found" });
+                    }
+                    else
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "Success" });
+                        respDTO.Result = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    respDTO.ResponseCode = "-1";
+                    respDTO.ErrorMessages.Add(new ErrorMessage { Message = "ItemServices" + "/GetItemQuantity" + ex.Message });
+                }
+                return respDTO;
+            }
+        }
+
         private byte[] fileToByteArray(IFormFile file)
         {
             byte[] fileBytes = null;
