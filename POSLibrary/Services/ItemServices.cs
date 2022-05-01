@@ -436,6 +436,96 @@ namespace POSLibrary.Services
             }
         }
 
+
+        public ResponseDTO<string> addItemVendor(ItemVendorModel bin)
+        {
+            using (FuncTrace trace = new FuncTrace("ItemServices", "addItemVendor"))
+            {
+                ResponseDTO<string> respDTO = new ResponseDTO<string>();
+                try
+                {
+                    IItemRepository repo = new RepositoryProvider().GetItemRepository();
+             
+                    respDTO = repo.addItemVendor(bin);
+
+                    if (respDTO.ResponseCode == "9000")
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "Insert or Update Failed" });
+                    }
+                    else
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "Success" });
+                        respDTO.Result = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    respDTO.ResponseCode = "-1";
+                    respDTO.ErrorMessages.Add(new ErrorMessage { Message = "ItemServices" + "/addItemVendor" + ex.Message });
+                }
+                return respDTO;
+            }
+        }
+
+        public ResponseDTO<string> deleteItemVendor(ItemVendorModel bin)
+        {
+            using (FuncTrace trace = new FuncTrace("ItemServices", "deleteItemVendor"))
+            {
+                ResponseDTO<string> respDTO = new ResponseDTO<string>();
+                try
+                {
+                    IItemRepository repo = new RepositoryProvider().GetItemRepository();
+
+                    respDTO = repo.deleteItemVendor(bin);
+
+                    if (respDTO.ResponseCode == "9000")
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "Delete opration Failed !" });
+                    }
+                    else
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "Success" });
+                        respDTO.Result = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    respDTO.ResponseCode = "-1";
+                    respDTO.ErrorMessages.Add(new ErrorMessage { Message = "ItemServices" + "/deleteItemVendor" + ex.Message });
+                }
+                return respDTO;
+            }
+        }
+        public ResponseDTO<List<ItemVendorModel>> GetItemVendors()
+        {
+            using (FuncTrace trace = new FuncTrace("ItemServices", "GetItems"))
+            {
+                ResponseDTO<List<ItemVendorModel>> respDTO = new ResponseDTO<List<ItemVendorModel>>();
+                try
+                {
+                    IItemRepository repo = new RepositoryProvider().GetItemRepository();
+
+                    respDTO = repo.GetItemVendors();
+
+                    if (respDTO.DTO.Count == 0)
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "No Record Found" });
+                    }
+                    else
+                    {
+                        respDTO.ErrorMessages.Add(new ErrorMessage { Message = "Success" });
+                        respDTO.Result = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    respDTO.ResponseCode = "-1";
+                    respDTO.ErrorMessages.Add(new ErrorMessage { Message = "ItemServices" + "/GetItems" + ex.Message });
+                }
+                return respDTO;
+            }
+        }
+
         private byte[] fileToByteArray(IFormFile file)
         {
             byte[] fileBytes = null;

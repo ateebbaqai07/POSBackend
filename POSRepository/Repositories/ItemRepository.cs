@@ -554,5 +554,91 @@ namespace POSRepository.Repositories
                 return responseDTO;
             }
         }
+
+        public ResponseDTO<string> addItemVendor(ItemVendorModel bin)
+        {
+            using (FuncTrace trace = new FuncTrace("ItemRepository", "addItemVendor"))
+            {
+                ResponseDTO<string> responseDTO = new ResponseDTO<string>();
+                List<Parameter> _param = new List<Parameter>();
+                //Set Param
+                _param.Add(new Parameter { ParameterName = "@prod_code", Value = bin.prod_code, DbType = ParameterDbType.Decimal });
+                _param.Add(new Parameter { ParameterName = "@prod_name", Value = bin.prod_name, DbType = ParameterDbType.String });
+                _param.Add(new Parameter { ParameterName = "@supplier_code", Value = bin.supplier_code, DbType = ParameterDbType.Decimal });
+                _param.Add(new Parameter { ParameterName = "@supplier_name", Value = bin.supplier_name, DbType = ParameterDbType.String });
+                _param.Add(new Parameter { ParameterName = "@branch_id", Value = bin.branch_id, DbType = ParameterDbType.String });
+                _param.Add(new Parameter { ParameterName = "@priority", Value = bin.priority, DbType = ParameterDbType.Int32 });
+                DataSet ds = new ClsExecute().GetDataSet("sp_update_item_multivendor", CommandType.StoredProcedure, _param);
+
+
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+                    responseDTO.ResponseCode = SafeConvert.ToString(ds.Tables[0].Rows[0]["retValue"]);
+
+                }
+
+                return responseDTO;
+            }
+        }
+
+        public ResponseDTO<string> deleteItemVendor(ItemVendorModel bin)
+        {
+            using (FuncTrace trace = new FuncTrace("ItemRepository", "deleteItemVendor"))
+            {
+                ResponseDTO<string> responseDTO = new ResponseDTO<string>();
+                List<Parameter> _param = new List<Parameter>();
+                //Set Param
+                _param.Add(new Parameter { ParameterName = "@prod_code", Value = bin.prod_code, DbType = ParameterDbType.Decimal });
+                _param.Add(new Parameter { ParameterName = "@supplier_code", Value = bin.supplier_code, DbType = ParameterDbType.Decimal });
+
+                DataSet ds = new ClsExecute().GetDataSet("SP_DLT_ITEM_VENDOR", CommandType.StoredProcedure, _param);
+
+
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+                    responseDTO.ResponseCode = SafeConvert.ToString(ds.Tables[0].Rows[0]["retValue"]);
+
+                }
+
+                return responseDTO;
+            }
+        }
+        public ResponseDTO<List<ItemVendorModel>> GetItemVendors()
+        {
+            using (FuncTrace trace = new FuncTrace("ItemRepository", "GetQuantity"))
+            {
+                ResponseDTO<List<ItemVendorModel>> responseDTO = new ResponseDTO<List<ItemVendorModel>>();
+                List<Parameter> _param = new List<Parameter>();
+       
+
+                DataSet ds = new ClsExecute().GetDataSet("SP_GET_ITEM_VENDORS", CommandType.StoredProcedure, _param);
+
+         
+                List<ItemVendorModel> l_field = new List<ItemVendorModel>();
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+
+                    foreach (DataRow row in ds.Tables[0].Rows)
+                    {
+                        ItemVendorModel l_obj = new ItemVendorModel();
+                        l_obj.prod_code = SafeConvert.ToDecimal(row["prod_code"]);
+                        l_obj.prod_name = SafeConvert.ToString(row["prod_name"]);
+                        l_obj.supplier_code = SafeConvert.ToDecimal(row["supplier_code"]);
+                        l_obj.supplier_name = SafeConvert.ToString(row["supplier_name"]);
+                        l_obj.branch_id = SafeConvert.ToString(row["branch_id"]);
+                        l_obj.priority = SafeConvert.ToInt32(row["priority"]);
+
+
+                        l_field.Add(l_obj);
+
+                    }
+
+                }
+                responseDTO.DTO = l_field;
+                responseDTO.Result = true;
+
+                return responseDTO;
+            }
+        }
     }
 }

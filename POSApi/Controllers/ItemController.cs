@@ -124,6 +124,34 @@ namespace POSApi.Controllers
 
         }
 
+        [HttpPost]
+        [Route("[action]")]
+        public ResponseDTO<string> addItemVendor(ItemVendorModel bin)
+        {
+            ServiceProvider sp = new ServiceProvider();
+            return sp.GetItemService().addItemVendor(bin);
+
+        }
+
+
+        [HttpPost]
+        [Route("[action]")]
+        public ResponseDTO<string> deleteItemVendor(ItemVendorModel bin)
+        {
+            ServiceProvider sp = new ServiceProvider();
+            return sp.GetItemService().deleteItemVendor(bin);
+
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public ResponseDTO<List<ItemVendorModel>> GetItemVendors()
+        {
+            ServiceProvider sp = new ServiceProvider();
+            return sp.GetItemService().GetItemVendors();
+
+        }
+
 
         [HttpPost] 
         public ResponseDTO<string> Post([FromForm] ItemModel bin)

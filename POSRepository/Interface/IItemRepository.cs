@@ -31,5 +31,10 @@ namespace POSRepository.Interface
         public ResponseDTO<string> updateQuantity(QuantityModel bin);
 
         public ResponseDTO<QuantityModel> GetQuantity(decimal voucher_no);
+        public ResponseDTO<string> addItemVendor(ItemVendorModel bin);
+
+        public ResponseDTO<string> deleteItemVendor(ItemVendorModel bin);
+
+        public ResponseDTO<List<ItemVendorModel>> GetItemVendors();
     }
 }

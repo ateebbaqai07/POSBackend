@@ -188,4 +188,19 @@ namespace POSModel
 
     }
 
+    public class ItemVendorModel
+    {
+        public decimal prod_code { get; set; }
+
+        public string prod_name { get; set; }
+
+        public decimal supplier_code { get; set; }
+
+        public string supplier_name { get; set; }
+
+        public string branch_id { get; set; }
+
+        public int? priority { get; set; }
+    }
+
 }
