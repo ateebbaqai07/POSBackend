@@ -13,6 +13,7 @@ namespace POSRepository.Repositories
     {
         public ResponseDTO<LoginModel> GetLogiUserDetail(string loginID,string Password)
         {
+           
             using (FuncTrace trace = new FuncTrace("CommonRepository", "GetAgentDetailByAgentID"))
             {
                 ResponseDTO<LoginModel> responseDTO = new ResponseDTO<LoginModel>(); 

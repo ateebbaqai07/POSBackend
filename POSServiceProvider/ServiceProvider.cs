@@ -18,5 +18,10 @@ namespace POSServiceProvider
         {
             return new ItemServices();
         }
+
+        public  ICustomerServices GetCustomerServices()
+        {
+            return new CustomerServices();
+        }
     }
 }

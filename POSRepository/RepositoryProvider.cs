@@ -18,5 +18,10 @@ namespace POSRepository
         {
             return new ItemRepository();
         }
+
+        public ICustomerRepository GetCustomerRepository()
+        {
+            return new CustomerRepository();
+        }
     }
 }
