@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj": {}
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj": {}
   },
   "projects": {
-    "D:\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj": {
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj",
+        "projectUniqueName": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj",
         "projectName": "POSResource",
-        "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj",
-        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-        "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSResource\\obj\\",
+        "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj",
+        "packagesPath": "C:\\Users\\906887\\.nuget\\packages\\",
+        "outputPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSResource\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\906887\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,12 +49,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

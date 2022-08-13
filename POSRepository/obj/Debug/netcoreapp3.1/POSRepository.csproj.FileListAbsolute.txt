@@ -26,3 +26,17 @@ D:\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.
 D:\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.CopyComplete
 D:\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.dll
 D:\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.deps.json
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\bin\Debug\netcoreapp3.1\POSRepository.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\bin\Debug\netcoreapp3.1\POSModel.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\bin\Debug\netcoreapp3.1\Tracer.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\bin\Debug\netcoreapp3.1\POSModel.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.AssemblyInfoInputs.cache
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.AssemblyInfo.cs
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.CoreCompileInputs.cache
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.CopyComplete
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.csproj.AssemblyReference.cache
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSRepository\obj\Debug\netcoreapp3.1\POSRepository.GeneratedMSBuildEditorConfig.editorconfig

@@ -30,3 +30,19 @@ D:\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.cs
 D:\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.CopyComplete
 D:\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.dll
 D:\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\bin\Debug\netcoreapp3.1\POSInterface.deps.json
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\bin\Debug\netcoreapp3.1\POSInterface.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\bin\Debug\netcoreapp3.1\POSInterface.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\bin\Debug\netcoreapp3.1\POSModel.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\bin\Debug\netcoreapp3.1\POSRepository.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\bin\Debug\netcoreapp3.1\Tracer.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\bin\Debug\netcoreapp3.1\POSModel.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\bin\Debug\netcoreapp3.1\POSRepository.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.AssemblyInfoInputs.cache
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.AssemblyInfo.cs
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.CoreCompileInputs.cache
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.CopyComplete
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.dll
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.pdb
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.AssemblyReference.cache
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Folder\\GIT\\POSBackend\\POSApi\\POSApi.csproj": {}
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSApi\\POSApi.csproj": {}
   },
   "projects": {
-    "D:\\My Folder\\GIT\\POSBackend\\POSApi\\POSApi.csproj": {
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSApi\\POSApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSApi\\POSApi.csproj",
+        "projectUniqueName": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSApi\\POSApi.csproj",
         "projectName": "POSApi",
-        "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSApi\\POSApi.csproj",
-        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-        "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSApi\\obj\\",
+        "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSApi\\POSApi.csproj",
+        "packagesPath": "C:\\Users\\906887\\.nuget\\packages\\",
+        "outputPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\906887\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
-                "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
+              "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
+                "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
               },
-              "D:\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj": {
-                "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj"
+              "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj": {
+                "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj"
               }
             }
           }
@@ -62,6 +62,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.26, 3.1.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -70,21 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj": {
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj",
+        "projectUniqueName": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj",
         "projectName": "POSInterface",
-        "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj",
-        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-        "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSInterface\\obj\\",
+        "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj",
+        "packagesPath": "C:\\Users\\906887\\.nuget\\packages\\",
+        "outputPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSInterface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\906887\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,11 +108,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
-                "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
+              "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
+                "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
               },
-              "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj": {
-                "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj"
+              "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj": {
+                "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj"
               }
             }
           }
@@ -136,26 +146,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj": {
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj",
+        "projectUniqueName": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj",
         "projectName": "POSLibrary",
-        "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj",
-        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-        "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSLibrary\\obj\\",
+        "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj",
+        "packagesPath": "C:\\Users\\906887\\.nuget\\packages\\",
+        "outputPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\906887\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -169,11 +185,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj": {
-                "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj"
+              "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj": {
+                "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSInterface\\POSInterface.csproj"
               },
-              "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
-                "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
+              "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
+                "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
               }
             }
           }
@@ -197,26 +213,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj",
+        "projectUniqueName": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj",
         "projectName": "POSModel",
-        "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj",
-        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-        "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\obj\\",
+        "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj",
+        "packagesPath": "C:\\Users\\906887\\.nuget\\packages\\",
+        "outputPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\906887\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -273,26 +295,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj": {
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj",
+        "projectUniqueName": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj",
         "projectName": "POSRepository",
-        "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj",
-        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-        "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSRepository\\obj\\",
+        "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj",
+        "packagesPath": "C:\\Users\\906887\\.nuget\\packages\\",
+        "outputPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\906887\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -306,8 +334,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
-                "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
+              "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj": {
+                "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSModel\\POSModel.csproj"
               }
             }
           }
@@ -337,26 +365,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj": {
+    "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj",
+        "projectUniqueName": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj",
         "projectName": "POSServiceProvider",
-        "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj",
-        "packagesPath": "C:\\Users\\talha.ashfaque\\.nuget\\packages\\",
-        "outputPath": "D:\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\obj\\",
+        "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\POSServiceProvider.csproj",
+        "packagesPath": "C:\\Users\\906887\\.nuget\\packages\\",
+        "outputPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSServiceProvider\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\talha.ashfaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\906887\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -370,8 +404,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj": {
-                "projectPath": "D:\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj"
+              "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj": {
+                "projectPath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj"
               }
             }
           }
@@ -395,12 +429,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
