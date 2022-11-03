@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WF2MDJ3s71qanph9yFmoXD/uz/LHLvIgcA7LoKZfXUpOj+iDzBzbagAiD1i6j60CqBxq0OqvZl6uFVumJqPLpg==",
+  "dgSpecHash": "uNQGJCiDFjZAPDfNaeGK1817Ffw0NN8NAgbJo7DxIt5fRZZa6fv+UBRh+B4BYpPZn8fOMbffjqou2DbmIoC9iw==",
   "success": true,
   "projectFilePath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSRepository\\POSRepository.csproj",
   "expectedPackageFiles": [
@@ -26,8 +26,7 @@
     "C:\\Users\\906887\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\906887\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\906887\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\906887\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
-    "C:\\Users\\906887\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\906887\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

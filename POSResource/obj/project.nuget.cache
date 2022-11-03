@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xL5C0YDFXevPUKPTaMQ3r9JJ7w1NAYT2VifWQ6fZK3rmH/X9zp4QzepxXDHf1r+qSlZXs4ShDNJvXjoiLMEULg==",
+  "dgSpecHash": "MKbsuZuyyHWHqLvc1fbWLXZyAXtYNOg7bZ7pPHaqB6gor9wP0c1gDsMjg1JvOG/QQX3ZBtZe0V+O0Q9hrpNqlw==",
   "success": true,
   "projectFilePath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSResource\\POSResource.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\906887\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

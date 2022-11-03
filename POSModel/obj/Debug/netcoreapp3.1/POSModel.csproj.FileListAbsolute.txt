@@ -26,5 +26,4 @@ D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSModel\obj\Debug\netcoreapp
 D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSModel\obj\Debug\netcoreapp3.1\POSModel.csproj.CoreCompileInputs.cache
 D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSModel\obj\Debug\netcoreapp3.1\POSModel.dll
 D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSModel\obj\Debug\netcoreapp3.1\POSModel.pdb
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSModel\obj\Debug\netcoreapp3.1\POSModel.csproj.AssemblyReference.cache
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSModel\obj\Debug\netcoreapp3.1\POSModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSModel\obj\Debug\netcoreapp3.1\POSModel.csprojAssemblyReference.cache

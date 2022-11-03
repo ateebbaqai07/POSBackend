@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q1+Fev1GtiD3V96NpQtc+4M9V3i/mbmpvYfkBBMd1BTCvqFbyG2FSe+2CtJUlWHOtb2zyPTPsCWjjqu9QrWpoQ==",
+  "dgSpecHash": "RqcEdgllGLOvLPnuPUdL9NkYAKghiSuBHYsjzfijA7SkMVlTwGPEJ841wn+DxfKDtGUuwDLxsbIKPPipiap9Hw==",
   "success": true,
   "projectFilePath": "D:\\Old Development\\Laptop\\My Folder\\GIT\\POSBackend\\POSLibrary\\POSLibrary.csproj",
   "expectedPackageFiles": [
@@ -40,8 +40,7 @@
     "C:\\Users\\906887\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
     "C:\\Users\\906887\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\906887\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\system.servicemodel.primitives.4.9.0.nupkg.sha512",
-    "C:\\Users\\906887\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\906887\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\906887\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

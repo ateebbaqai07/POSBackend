@@ -8,13 +8,3 @@ D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.Ass
 D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.csproj.CoreCompileInputs.cache
 D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.dll
 D:\My Folder\My Projects\POS\POSResource\obj\Debug\netcoreapp3.1\POSResource.pdb
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\bin\Debug\netcoreapp3.1\POSResource.deps.json
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\bin\Debug\netcoreapp3.1\POSResource.dll
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\bin\Debug\netcoreapp3.1\POSResource.pdb
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\obj\Debug\netcoreapp3.1\POSResource.csproj.AssemblyReference.cache
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\obj\Debug\netcoreapp3.1\POSResource.GeneratedMSBuildEditorConfig.editorconfig
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\obj\Debug\netcoreapp3.1\POSResource.AssemblyInfoInputs.cache
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\obj\Debug\netcoreapp3.1\POSResource.AssemblyInfo.cs
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\obj\Debug\netcoreapp3.1\POSResource.csproj.CoreCompileInputs.cache
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\obj\Debug\netcoreapp3.1\POSResource.dll
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSResource\obj\Debug\netcoreapp3.1\POSResource.pdb

@@ -44,5 +44,4 @@ D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcor
 D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.CopyComplete
 D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.dll
 D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.pdb
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csproj.AssemblyReference.cache
-D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.GeneratedMSBuildEditorConfig.editorconfig
+D:\Old Development\Laptop\My Folder\GIT\POSBackend\POSInterface\obj\Debug\netcoreapp3.1\POSInterface.csprojAssemblyReference.cache
